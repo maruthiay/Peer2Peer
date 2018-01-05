@@ -1,0 +1,113 @@
+Sep 18, 2009 6:35:15 PM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 18, 2009 6:36:07 PM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 18, 2009 6:58:27 PM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 21, 2009 4:33:08 PM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 23, 2009 10:33:17 AM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 23, 2009 10:51:39 AM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 23, 2009 11:04:25 AM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 23, 2009 11:20:45 AM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 23, 2009 12:22:40 PM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 23, 2010 2:59:11 PM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 23, 2010 5:39:09 PM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 23, 2010 5:56:48 PM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 23, 2010 5:56:50 PM com.dts.core.util.LoggerManager writeLogWarning
+WARNING: java.sql.SQLException: [Oracle][ODBC][Ora]ORA-01033: ORACLE initialization or shutdown in progress
+java.sql.SQLException: [Oracle][ODBC][Ora]ORA-01033: ORACLE initialization or shutdown in progress
+	at com.dts.core.util.LoggerManager.writeLogWarning(LoggerManager.java:51)
+	at com.dts.core.dao.AbstractDataAccessObject.getConnection(AbstractDataAccessObject.java:38)
+	at com.dts.core.db.DBFactory.<init>(DBFactory.java:10)
+	at com.dts.core.util.InitServlet.init(InitServlet.java:40)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1105)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:932)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3951)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4225)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:759)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:739)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:524)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:904)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:867)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1122)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:310)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1021)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:718)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1013)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:442)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:450)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:709)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:551)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:432)
+Sep 23, 2010 5:58:00 PM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 23, 2010 6:14:00 PM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 24, 2010 10:45:06 AM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 24, 2010 4:42:27 PM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 24, 2010 6:03:09 PM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 24, 2010 6:07:33 PM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 24, 2010 6:31:07 PM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 24, 2010 6:34:06 PM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 24, 2010 6:40:08 PM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 24, 2009 6:49:36 PM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 24, 2009 6:58:23 PM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 25, 2009 10:46:56 AM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 25, 2009 10:49:51 AM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 25, 2009 12:02:54 PM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 25, 2009 2:35:10 PM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 25, 2009 3:13:24 PM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 25, 2009 3:39:32 PM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 25, 2009 3:51:30 PM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 25, 2009 4:59:28 PM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 27, 2009 10:51:16 AM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 27, 2009 11:07:13 AM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 28, 2009 10:55:49 AM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 28, 2009 11:09:51 AM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 28, 2009 11:13:43 AM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 28, 2009 11:21:44 AM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 28, 2009 11:37:58 AM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 28, 2009 11:38:41 AM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
+Sep 28, 2009 11:45:47 AM com.dts.core.util.LoggerManager writeLogInfo
+INFO: Logger Instantiated
